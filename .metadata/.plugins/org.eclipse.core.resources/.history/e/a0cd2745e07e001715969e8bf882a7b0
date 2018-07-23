@@ -1,0 +1,21 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.comtroller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:3:27:24 am
+ *TIME:12-Aug-2017
+ *TAGS:
+ */
+@Controller
+public class StudentRegisterController {
+	public String homePage(){
+		return "Homepage";
+	}
+
+}

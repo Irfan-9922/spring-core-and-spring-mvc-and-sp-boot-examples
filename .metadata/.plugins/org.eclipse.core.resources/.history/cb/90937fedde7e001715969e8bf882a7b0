@@ -1,0 +1,21 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.model;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:3:19:08 am
+ *TIME:12-Aug-2017
+ *TAGS:
+ */
+public class Snippet {
+	/**
+	 * 
+	 */
+	public static void main(String[] args) {
+		contact
+	}
+}
+

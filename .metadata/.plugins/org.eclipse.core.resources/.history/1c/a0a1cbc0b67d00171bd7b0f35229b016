@@ -1,0 +1,6 @@
+<form action="/10-8-17-@model-Attribute-and-pojoclass-ann-rev-2/form1" method="post">
+
+Name:<input type="text" name="name"/><br>
+no:<input type="text" name="no"/><br>
+<input type="submit" value="sbmit">
+</form>

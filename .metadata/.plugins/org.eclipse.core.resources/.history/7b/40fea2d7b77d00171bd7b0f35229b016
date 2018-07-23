@@ -1,0 +1,30 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.is.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:3:23:17 pm
+ *TIME:10-Aug-2017
+ *TAGS:
+ */
+@Controller
+public class controller {
+@RequestMapping("welcome")
+	public String show(){
+		return "welcome";
+	}
+@RequestMapping(value="/form", method=RequestMethod.POST)
+public ModelAndView r(@ModelAttribute("st") student st){
+	ModelAndView m=new ModelAndView("form1");
+	return m;
+}
+}

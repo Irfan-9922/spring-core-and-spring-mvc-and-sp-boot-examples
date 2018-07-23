@@ -1,0 +1,23 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.go;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:4:32:52 pm
+ *TIME:10-Aug-2017
+ *TAGS:
+ */
+@Controller
+public class welcome {
+	@RequestMapping("one")
+	public String dis(){
+		return "first";
+	}
+
+}

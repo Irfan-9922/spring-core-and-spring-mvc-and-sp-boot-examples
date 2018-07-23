@@ -1,0 +1,15 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package SORTEDSET;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:11:51:26 am
+ *TIME:07-Aug-2017
+ *TAGS:
+ */
+public abstract class employee {
+
+}

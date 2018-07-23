@@ -1,0 +1,37 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.beans;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:3:20:15 am
+ *TIME:12-Aug-2017
+ *TAGS:
+ */
+public class ContactDetail {
+	private long mobleno;
+	private long landlineno;
+	private String email;
+	public long getMobleno() {
+		return mobleno;
+	}
+	public void setMobleno(long mobleno) {
+		this.mobleno = mobleno;
+	}
+	public long getLandlineno() {
+		return landlineno;
+	}
+	public void setLandlineno(long landlineno) {
+		this.landlineno = landlineno;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+
+}

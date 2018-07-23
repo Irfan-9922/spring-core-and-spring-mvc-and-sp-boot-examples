@@ -1,0 +1,58 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package test;
+
+import java.util.Iterator;
+
+import List.CustomArrayList;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:4:17:08 pm
+ *TIME:06-Aug-2017
+ *TAGS:
+ */
+public class student {
+	int no;
+	/**
+	 * @param no
+	 * @param name
+	 */
+	public student(int no, String name) {
+		super();
+		this.no = no;
+		this.name = name;
+	}
+
+	String name;
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		student s1=new student(12, "irfan");
+		student s2=new student(2, "nisar");
+		student s3=new student(2, "nisar");
+		student s4=new student(2, "nisar");
+		CustomArrayList<student> s=new CustomArrayList<student>();
+
+		s.add(s1);
+		s.add(s2);
+		s.add(s4);
+		s.remove(1);
+      s.display();
+      
+
+		 System.out.println("length:::"+ s.element.length);
+		 System.out.println("size::"+s.size);
+	}
+
+	@Override
+	public String toString() {
+		return "student [no=" + no + ", name=" + name + "]";
+	}
+
+}

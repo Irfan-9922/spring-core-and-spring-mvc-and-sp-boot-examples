@@ -1,0 +1,40 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.ij;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * TIME:4:08:07 am
+ *DATE:10-Sep-2017
+ *TAGS:
+ */
+public class student5 {
+	private String name;
+	private int phno;
+	private adress5 dd;
+	private adress5 com;
+	
+	/**
+	 * @param name
+	 * @param phno
+	 * @param dd
+	 * @param com
+	 */
+	public student5(String name, int phno, adress5 dd, adress5 com) {
+		super();
+		this.name = name;
+		this.phno = phno;
+		this.dd = dd;
+		this.com = com;
+	}
+
+	@Override
+	public String toString() {
+		return "student3 [name=" + name + ", phno=" + phno + ", dd=" + dd + ", com=" + com + "]";
+	}
+	
+	
+	
+}

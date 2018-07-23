@@ -1,0 +1,49 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.ij;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Required;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * TIME:4:08:07 am
+ *DATE:10-Sep-2017
+ *TAGS:
+ */
+public class student3 {
+	private String name;
+	
+	private int phno;
+	@Autowired
+	
+	private adress3 dd;
+	@Autowired
+	
+	private adress3 com;
+	
+	
+	/**
+	 * @param name
+	 * @param phno
+	 * @param dd
+	 * @param com
+	 */
+	public student3(String name, int phno, adress3 dd, adress3 com) {
+		super();
+		this.name = name;
+		this.phno = phno;
+		this.dd = dd;
+		this.com = com;
+	}
+
+
+	@Override
+	public String toString() {
+		return "student3 [name=" + name + ", phno=" + phno + ", dd=" + dd + ", com=" + com + "]";
+	}
+
+}

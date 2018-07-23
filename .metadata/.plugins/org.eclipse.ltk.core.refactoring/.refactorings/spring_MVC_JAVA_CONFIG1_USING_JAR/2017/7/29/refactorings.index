@@ -1,0 +1,8 @@
+1500445016585	Move 'welcome.jsp' to 'pages'
+1500445145650	Delete element
+1500445362787	Move 'welcome.jsp' to 'WEB-INF'
+1500446742373	Rename type 'welcome'
+1500448383053	Rename resource 'pages'
+1500448389159	Move 'welcome.jsp' to 'views'
+1500448514248	Rename resource 'welcome.jsp'
+1500454748202	Rename type 'servletInitilizer'

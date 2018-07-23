@@ -1,0 +1,3 @@
+Paste stack traces into this console and follow hyperlinks to sourcae code.
+asxasx
+sdc

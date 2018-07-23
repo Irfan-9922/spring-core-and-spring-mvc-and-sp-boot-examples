@@ -1,0 +1,49 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package test;
+
+import List.CustomArrayList;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:7:56:01 pm
+ *TIME:06-Aug-2017
+ *TAGS:
+ */
+public class mainclass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CustomArrayList<studentDetails> s=new CustomArrayList<>();
+		studentDetails d=new studentDetails(1, 2240, "irfan", "latur");
+		studentDetails d1=new studentDetails(2, 2200, "jim", "mumbai");
+		studentDetails d2=new studentDetails(3, 3300, "kim", "pine");
+		studentDetails d3=new studentDetails(4, 4300, "sai", "hyd");
+		studentDetails d4=new studentDetails(6, 9232, "prasad", "tel");
+		studentDetails d6=new studentDetails(7, 9434, "man", "aur");
+		studentDetails d7=new studentDetails(5, 23, "vaisahli", "punr");
+	
+
+		s.add(d);
+		s.add(d1);
+		
+		s.add(d2);
+		s.add(d3);
+		s.add(d4);
+		s.add(d6);
+		s.add(d7);
+		System.out.println(s.size);
+		s.remove(d7);
+		s.display();
+		System.out.println(s.size);
+		
+		
+
+	}
+
+}

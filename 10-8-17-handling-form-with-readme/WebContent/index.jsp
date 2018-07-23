@@ -1,0 +1,1 @@
+<jsp:forward page="/form1"></jsp:forward>

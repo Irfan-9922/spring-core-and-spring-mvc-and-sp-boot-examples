@@ -1,0 +1,37 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.model;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:3:18:14 am
+ *TIME:12-Aug-2017
+ *TAGS:
+ */
+//javax.el.PropertyNotFoundException: Property 'StudentName' not found on type com.model.StudentInfo
+public class StudentInfo {
+	private ContactDetail ContactDetail;
+	private StudentAddress StudentAddress;
+	private StudentName StudentName;
+	public ContactDetail getContactDetail() {
+		return ContactDetail;
+	}
+	public void setContactDetail(ContactDetail contactDetail) {
+		ContactDetail = contactDetail;
+	}
+	public StudentAddress getStudentAddress() {
+		return StudentAddress;
+	}
+	public void setStudentAddress(StudentAddress studentAddress) {
+		StudentAddress = studentAddress;
+	}
+	public StudentName getStudentName() {
+		return StudentName;
+	}
+	public void setStudentName(StudentName studentName) {
+		StudentName = studentName;
+	}
+	
+}

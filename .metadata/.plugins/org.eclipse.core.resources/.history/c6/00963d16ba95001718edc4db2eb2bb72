@@ -1,0 +1,28 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+	<bean id="demo" class="com.ij.student1">
+<constructor-arg value="nisar" type="String" />
+	<constructor-arg value="1234" type="int" />
+	<constructor-arg ref="adress"></constructor-arg>
+	<constructor-arg ref="adress1"></constructor-arg>
+	</bean>
+	
+	
+	<bean id="adress" class="com.ij.adress1">
+	<constructor-arg value="latur" type="String"/>
+	<constructor-arg value="123" type="int"/>
+	</bean>
+	<bean id="adress1" class="com.ij.adress1">
+	<constructor-arg value="pune" type="String"/>
+	
+	</bean>
+
+</beans>

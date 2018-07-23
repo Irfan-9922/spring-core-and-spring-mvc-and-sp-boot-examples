@@ -1,0 +1,22 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package test;
+
+import java.util.Iterator;
+
+import List.CustomArrayList;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:4:17:08 pm
+ *TIME:06-Aug-2017
+ *TAGS:
+ */
+public class studentDetails {
+	private int no;
+	private int phno;
+	private String name;
+	private 
+}

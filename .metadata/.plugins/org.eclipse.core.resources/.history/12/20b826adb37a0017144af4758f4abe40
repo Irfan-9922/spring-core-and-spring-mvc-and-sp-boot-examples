@@ -1,0 +1,23 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package test;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:7:56:01 pm
+ *TIME:06-Aug-2017
+ *TAGS:
+ */
+public class mainclass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

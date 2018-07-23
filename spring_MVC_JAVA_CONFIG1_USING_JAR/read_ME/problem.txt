@@ -1,0 +1,12 @@
+problem 1:
+=====================
+1:when i trid to run a program with url pattern i will get error this say's
+   WARNING: No mapping found for HTTP request with URI [/SpringMvc1/] in DispatcherServlet with name 'dispatcher'
+   
+ Solution::
+ ===========
+ ###problem with 
+ //@ComponentScan("{com.ij}")
+ use following step:
+ @ComponentScan({"com.ij"})
+ 

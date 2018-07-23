@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos; 31-7-17-spring-rev-handling-html-formdata-using-annotation(3)/WebContent/WEB-INF/disoatcher-servlet.xml&apos; to &apos;dispatcher-servlet.xml&apos;" description="Rename resource &apos;disoatcher-servlet.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/disoatcher-servlet.xml" name="dispatcher-servlet.xml" stamp="1501481769085" updateReferences="true"/>
+</session>

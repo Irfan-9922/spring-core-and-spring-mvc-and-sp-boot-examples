@@ -1,0 +1,31 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+	<bean id="demo" class="com.ij.student2">
+
+		<property name="name" value="nisar"/>
+		
+		<property name="phno" value="90902848"/>
+		<property name="add1">
+		<!-- this is the inner bean which is used by this bean only so no othe bean 
+		cant use this bean -->
+			<bean class="com.ij.adress2">
+				<property name="city" value="latur" />
+				<property name="zipcode" value="41312"/>
+			</bean>
+		</property>
+		<property name="add2" ref="dd2" />
+	</bean>
+	<bean id="dd2" class="com.ij.adress2">
+		<property name="city" value="pune" />
+		<property name="zipcode" value="6241"/>
+	</bean>
+
+</beans>

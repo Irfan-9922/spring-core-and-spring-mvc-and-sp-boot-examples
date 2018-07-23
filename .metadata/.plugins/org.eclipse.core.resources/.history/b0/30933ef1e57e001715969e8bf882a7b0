@@ -1,0 +1,13 @@
+<form action="/MY_STUDENT_REGISTRETION_PROJECT/demo.htm" method="post">
+
+Name:<input type="text" name="name"><br>
+lName:<input type="text" name="lname"><br>
+MName:<input type="text" name="mname"><br>
+adress1:<input type="text" name="adress1"><br>
+adress2:<input type="text" name="adress2"><br>
+adress3:<input type="text" name="adress3"><br>
+Email:<input type="text" name="email"><br>
+landlineno:<input type="text" name="landlineno"><br>
+mobleno:<input type="text" name="mobleno"><br>
+<input type="submit" value="submit">
+</form>

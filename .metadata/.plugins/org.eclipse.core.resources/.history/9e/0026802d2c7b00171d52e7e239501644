@@ -1,0 +1,37 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package SORTEDSET;
+
+import java.util.Comparator;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:10:13:40 am
+ *TIME:07-Aug-2017
+ *TAGS:
+ */
+public class desending implements Comparator{
+
+	
+
+	public int compare(Object o1, Object o2) {
+		Integer i=(Integer) o1;
+		Integer j=(Integer) o2;
+		// TODO Auto-generated method stub
+		if(i<j){
+			System.out.println("desending");
+			return 1;
+		}
+		else if(i>j){
+			System.out.println("asending");
+			return -1;
+		}
+		else{
+			return 1;
+		}
+		
+	}
+
+}

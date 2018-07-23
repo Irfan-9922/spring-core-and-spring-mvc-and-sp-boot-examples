@@ -1,0 +1,43 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package SORTEDSET;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:12:00:53 pm
+ *TIME:07-Aug-2017
+ *TAGS:
+ */
+public class comparableDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		employee e1=new employee(1, "irfan");
+		employee e2=new employee(2, "nisar");
+		employee e3=new employee(3, "pappu");
+		employee e4=new employee(4, "ramesh");
+		employee e5=new employee(5, "sai");
+		employee e6=new employee(6, "prasad");
+		//Set t=new HashSet();
+		TreeSet t=new TreeSet<>();
+		t.add(e1);
+		t.add(e2);
+		t.add(e3);
+		t.add(e4);
+		t.add(e5);
+		t.add(e6);
+		System.out.println(t);
+		
+
+	}
+
+}

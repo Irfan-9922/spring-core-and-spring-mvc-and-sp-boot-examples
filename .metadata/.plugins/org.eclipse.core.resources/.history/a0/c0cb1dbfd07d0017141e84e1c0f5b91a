@@ -1,0 +1,38 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.go;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:4:32:52 pm
+ *TIME:10-Aug-2017
+ *TAGS:
+ */
+@Controller
+public class welcome {
+	@RequestMapping("one")
+	public String dis(){
+		return "first";
+	}
+	@ModelAttribute
+	public void comman(Model m){
+		m.addAttribute("header","welcome to java wprld");
+	}
+	@RequestMapping(value="form2",method=RequestMethod.POST)
+	public ModelAndView g(@ModelAttribute("st") student st){
+		ModelAndView m=new ModelAndView("second");
+		//m.addObject("msg","welcome"+name);
+		return m;
+	}
+
+}

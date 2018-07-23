@@ -1,0 +1,18 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.beans;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:3:20:15 am
+ *TIME:12-Aug-2017
+ *TAGS:
+ */
+public class ContactDetail {
+	private long mobleno;
+	private long landlineno;
+	
+
+}

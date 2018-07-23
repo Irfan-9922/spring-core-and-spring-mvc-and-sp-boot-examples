@@ -1,0 +1,10 @@
+<h1>this is the sucess page</h1>
+${he}
+<h3 style=color:'red'>thank you for your informination </h3>
+user name::${st.name}
+phno:${st.phno}
+date:${st.date}
+countery:${st.adre.countery}
+state:${st.adre.state }
+city:${st.adre.city }
+

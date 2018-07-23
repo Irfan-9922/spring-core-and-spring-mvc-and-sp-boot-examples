@@ -1,0 +1,6 @@
+
+<form action="/cont/click1.htm" method="post">
+Name:<input type="text" name="name"><br>
+add:<input type="text" name="add"><br>
+<input type="submit" value="click">
+</form>

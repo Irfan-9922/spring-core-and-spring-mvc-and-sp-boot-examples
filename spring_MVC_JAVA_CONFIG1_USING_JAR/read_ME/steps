@@ -1,0 +1,28 @@
+steps for writing a program with java config
+==============================================
+1:write a class with extends AbstractAnnotationConfigDispatcherServletInitializer
+2:override threee methods
+  1:the first method that we can configure the rootcontainer ,root container that contains all the business class configretion
+    we can not configure the spring mvc class in this servlet
+    
+    
+    protected Class<?>[] getRootConfigClasses() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+  2:the second method getServletConfigClasses()
+  this method can be use for configure the controller class
+  this class contains child container .all the controller classes,view resolver we can configure in this method
+    @Override
+	protected Class<?>[] getServletConfigClasses() {
+		// TODO Auto-generated method stub
+		
+		return new Class [] { webMvcconfig.class };
+	}          
+3:in third method we can configure the mapping
+   @Override
+	protected String[] getServletMappings() {
+		// TODO Auto-generated method stub
+		return new String[] {"/"};
+		}
+     

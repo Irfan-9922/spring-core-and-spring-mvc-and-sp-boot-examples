@@ -1,0 +1,44 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.ij;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * TIME:4:08:07 am
+ *DATE:10-Sep-2017
+ *TAGS:
+ */
+public class student5 {
+	private String name;
+	private int phno;
+	@Autowired
+	@Qualifier("dog")
+	private adress5 dd;
+	
+	
+	/**
+	 * @param phno
+	 * @param dd
+	 * @param com
+	 */
+	public student5(String name, int phno, adress5 dd) {
+		super();
+		this.name = name;
+		this.phno = phno;
+		this.dd = dd;
+		
+	}
+
+	@Override
+	public String toString() {
+		return "student5 [name=" + name + ", phno=" + phno + ", dd=" + dd + "]";
+	}
+	
+	
+	
+}

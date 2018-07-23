@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos; 31-7-17-spring-rev-@pathvariable(3)&apos; to &apos; 31-7-17-spring-rev-@pathvariable-using-annotation(3)&apos;" description="Rename resource &apos; 31-7-17-spring-rev-@pathvariable(3)&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ 31-7-17-spring-rev-@pathvariable(3)" name=" 31-7-17-spring-rev-@pathvariable-using-annotation(3)" stamp="1501480243463" updateReferences="true"/>
+</session>

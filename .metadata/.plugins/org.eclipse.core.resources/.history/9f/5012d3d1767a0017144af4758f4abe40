@@ -1,0 +1,31 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package SET;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:12:30:26 pm
+ *TIME:06-Aug-2017
+ *TAGS:
+ */
+public class findDuplicate {
+	public static void main(String[] args) {
+		Set<String> uniq=new HashSet<String>();
+		Set<String> dump=new HashSet<String>();
+		String s=" i came i saw i left";
+		
+			uniq.add(s);
+				dump.add(s);
+			uniq.removeAll(dump);
+		
+			
+		//	System.out.println(uniq);
+			System.out.println("dump"+dump);
+	}
+
+}

@@ -1,0 +1,27 @@
+<%@taglib prefix="f" uri="http://www.springframework.org/tags/form"%>
+
+<f:errors path="st.*"/>
+<form action="/go/form2" method="post">
+
+
+${he}
+name:<input type="text" name="name"><f:errors path="name"/><br>
+fname:<input type="text" name="fname"><f:errors path="fname"/><br>
+Date:<input type="date" name="date"><f:errors path="date"></f:errors><br>
+ phno:<input type="text" name="phno"><f:errors path="phno"/><br>
+<!--city:<input type="text" name="adre.city"><br>
+countery:<input type="text" name="adre.countery"><br>
+state:<input type="text" name="adre.state"><br>
+zipcode:<input type="text" name="adre.zipcode"><br> -->
+<!-- 
+			Student's Skills set :    <select name="studentSkills" multiple>
+													<option value="Java Core">Java Core</option>
+													<option value="Spring Core">Spring Core</option>
+													<option value="Spring MVC">Spring MVC</option>
+													</select>
+	 -->
+
+<input type="submit" value="clik">
+</form>
+</body>
+</html>

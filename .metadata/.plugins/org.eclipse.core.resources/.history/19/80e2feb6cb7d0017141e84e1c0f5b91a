@@ -1,0 +1,35 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.go;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:6:12:33 pm
+ *TIME:10-Aug-2017
+ *TAGS:
+ */
+public class student {
+private String name;
+private String fname;
+private int phno;
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getFname() {
+	return fname;
+}
+public void setFname(String fname) {
+	this.fname = fname;
+}
+public int getPhno() {
+	return phno;
+}
+public void setPhno(int phno) {
+	this.phno = phno;
+}
+}

@@ -1,0 +1,68 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package SORTEDSET;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:12:00:53 pm
+ *TIME:07-Aug-2017
+ *TAGS:
+ */
+public class comparableDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		employee e1=new employee(1, "irfan");
+		employee e2=new employee(2, "nisar");
+		employee e3=new employee(3, "pappu");
+		employee e4=new employee(4, "ramesh");
+		employee e5=new employee(5, "sai");
+
+		employee e6=new employee(6, "prasaddemo");
+		employee e7=new employee(7, "abbas");
+		
+		//Set t=new HashSet();
+		//TreeSet t=new TreeSet<>();
+		
+		//System.out.println(t);
+		System.out.println("==============================");
+		
+		TreeSet t=new TreeSet<>(new mycompretor());
+		t.add(e1);
+		t.add(e2);
+		t.add(e3);
+		t.add(e4);
+		t.add(e5);
+
+		t.add(e6);
+		t.add(e7);
+	//	System.out.println(t);
+		TreeSet t1=new TreeSet<>(new mycompretor());
+		
+		employee e8=new employee(8, "rani");
+		employee e9=new employee(9, "pooja");
+		employee e10=new employee(10, "hajjo");
+
+		employee e11=new employee(11, "bushi");
+		employee e12=new employee(12, "rashi");
+		t1.add(e8);
+		t1.add(e9);
+		t1.add(e10);
+		t1.add(e11);
+		t1.add(e12);
+		//t1.add(e6);
+		System.out.println(t.retainAll(t1));
+		
+
+	}
+
+}

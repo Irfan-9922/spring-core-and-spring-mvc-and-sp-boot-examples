@@ -1,0 +1,31 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.ij;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.AbstractController;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:12:56:51 am
+ *TIME:12-Aug-2017
+ *TAGS:
+ */
+public class com extends AbstractController{
+	
+	/* (non-Javadoc)
+	 * @see org.springframework.web.servlet.mvc.AbstractController#handleRequestInternal(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+	 */
+	@Override
+	protected ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response)
+			throws Exception {
+		// TODO Auto-generated method stub
+		return new ModelAndView("ww");
+	}
+
+}

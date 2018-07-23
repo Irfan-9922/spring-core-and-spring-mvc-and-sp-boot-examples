@@ -1,0 +1,4 @@
+<h1>thank you</h1>
+${stinfo.st.name}
+${stinfo.st.lname}
+${stinfo.st.mname}

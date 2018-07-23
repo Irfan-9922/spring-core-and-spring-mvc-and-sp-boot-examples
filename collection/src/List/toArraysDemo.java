@@ -1,0 +1,36 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package List;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:10:41:13 pm
+ *TIME:06-Aug-2017
+ *TAGS:
+ */
+public class toArraysDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List <Integer>l=new ArrayList<>();
+		for(int i=0;i<9;i++){
+			l.add(i);
+		}
+		System.out.println(l);
+		System.out.println("=======================================================");
+		Object[] a= l.toArray();
+		for(Object j:a){
+			System.out.println(j);
+		}
+		System.out.println();
+	}
+
+}

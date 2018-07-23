@@ -1,0 +1,39 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/\ 31-7-17-spring-rev-@pathvariable(3)/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/\ 31-7-17-spring-rev-@pathvariable-using-annotation(3)/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/\ 31-7-17-spring-rev-annotation(2)/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/\ 31-7-17-spring-rev-handling-html-formdata-using-annotation(3)/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/09-08-17-spring-rev-@pathvariable-using-anno-2/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/09-08-17-spring-rev-anno-2/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/31-7-17-spring-rev(1)/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/MY_STUDENT_REGISTRETION_PROJECT/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/Spring_INT_REV_SIMPLE_1/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-AUTOWIRING-BY-CONSTRUCTOR-EXAMPLE7/src/cfgs/spring-config5.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-AUTOWIRING-BY-NAME-ANNOTATION-EXAMPLE-16/src/cfgs/spring-config3.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-AUTOWIRING-BY-NAME-EXAMPLE3/src/cfgs/spring-config2.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-AUTOWIRING-BY-NAME-EXAMPLE3/src/cfgs/spring-config3.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-AUTOWIRING-BY-TYPE-EXAMPLE6/src/cfgs/spring-config4.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-BEAN-COLLECTION-TYPE-PROPERTIES-EXAMPLE-10/src/cfgs/spring-config6.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-BEAN-FACTORY-POST-PROSESSOR-EXAMPLE-14/src/cfgs/spring-config3.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-BEAN-INHERITENCE-EXAMPLE-9/src/cfgs/spring-config4.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-BEAN-LIFE-CYCLE-USING-ANNOTATION-EXAMPLE-12/src/cfgs/spring-config3.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-BEAN-LIFE-CYCLE-USING-CALL-BACK-INTERFACE-EXAMPLE-13/src/cfgs/spring-config3.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-BEAN-LIFE-CYCLE-USING-METHOD-EXAMPLE-11/src/cfgs/spring-config3.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-CONSTRUCTOR-INJECTION-EXAMPLE3/src/cfgs/spring-config2.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-CONSTRUCTOR-INJECTION-EXAMPLE3/src/cfgs/spring-config3.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-CONSTRUCTOR-INJECTION-EXAMPLE4/src/cfgs/spring-config3.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-INNER-BEAN-EXAMPLE3/src/cfgs/spring-config3.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-PROPERTY-PLACE-HOLDER-EXAMPLE-16/src/cfgs/spring-config3.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-SCOPE-SINGLETON-EXAMPLE-8/src/cfgs/spring-config5.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-SCOPE-SINGLETON-EXAMPLE-8/src/cfgs/spring-config6.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-SETTER-INJECTION-EXAMPLE2/src/cfgs/spring-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/V1-SPRING-CORE-SETTING-VALUES-EXAMPLE2/src/cfgs/spring-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/WishMvcApp/WebContent/WEB-INF/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/WishMvcApp/WebContent/WEB-INF/dispatcher.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/challeng/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/demo1/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/demoe/WebContent/WEB-INF/spring-dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/dink/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/form_handling_with_java_class/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/go/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/springmvcproject/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+eclipse.preferences.version=1

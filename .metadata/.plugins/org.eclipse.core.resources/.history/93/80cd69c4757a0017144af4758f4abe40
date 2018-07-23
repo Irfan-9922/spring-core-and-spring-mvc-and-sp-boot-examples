@@ -1,0 +1,24 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package SET;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:12:30:26 pm
+ *TIME:06-Aug-2017
+ *TAGS:
+ */
+public class findDuplicate {
+	public static void main(String[] args) {
+		Set<String> uniq=new HashSet<String>();
+		for(String s:args)
+	      uniq.add(s);
+		System.out.println(uniq);
+	}
+
+}

@@ -1,0 +1,88 @@
+
+1:when you get 404 error you can map the request mapping to the method level not for class level
+2:             hibernate validator
+          =some time hibernate validator jar gives problem you need to restart e clipse
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                     Cunstructor injection
+                     =====================
+                     if you are using constroctor injection then it same as a by type mode of autowiring
+                     if you having only one bean then and only one matching constructor then its going to workout
+                     if you having multipal bean with same type then it gives an ambiguti error
+                          
+                          
+                          Spetial case
+                          ==============
+                           in parant bean you must define the following code like:
+                          <bean id="demo" class="com.ij.student5" autowire="constructor">
+		                      <constructor-arg name="name" value="sdsd"/>
+		                         <constructor-arg name="phno" value="23"/>
+		
+		
+	                           </bean>
+	                              <bean id="dod" class="com.ij.adress5">
+	                                 <constructor-arg  value="latur"/>
+	                                	<constructor-arg  value="0093"/>
+	                                        </bean>
+	                                        
+	                                        the above code is working fine in the child bean if you not mention 
+	                                        the member name also its working but in below condition it is not 
+	                                        going to workout
+	                                         <bean id="demo" class="com.ij.student5" autowire="constructor">
+		                                        <constructor-arg  value="sdsd"/>
+		                                            <constructor-arg  value="23"/>
+		
+		
+	                                               </bean>
+	                                                   <bean id="dod" class="com.ij.adress5">
+	                                                       <constructor-arg  value="latur"/>
+	                                                    	<constructor-arg  value="0093"/>
+	                                                          </bean>
+	                             
+	                             Error for above condition:
+	                             ==========================
+	                             Exception in thread "main" org.springframework.beans.factory.UnsatisfiedDependencyException:
+	                              Error creating bean with name 'demo' defined in file [E:\sp\V1-SPRING-CORE-AUTOWIRING-BY-CONSTRUCTOR-EXAMPLE7\src\cfgs\spring-config5.xml]:
+	                               Unsatisfied dependency expressed through constructor argument with index 1 of type [int]:
+	                                : No qualifying bean of type [int] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency.
+	                                 Dependency annotations: {};
+	                                  nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: 
+	                                  No qualifying bean of type [int] found for dependency: 
+	                                  expected at least 1 bean which qualifies as autowire candidate for this dependency.
+	                                   Dependency annotations: {}                             
+	                   
+	                   
+	     Spring Scopes:
+	  ============================
+	                 singletone:
+	              this makes factory bean to give same bean calss object every time 
+	                   when we call the ctx.getbean()
+	               prototype:
+	               ==========
+	               this givees the new object for every ctx.getbean()
+	               Request:
+	               ========
+	               this scope is used in spring mvc.this scop makes create a bean object for every req.
+	               Session:
+	               =======
+	               this scope is used in spring mvc this makes to creat bean object for per session
+	      
+	      Bean Inheritecne
+	      ====================
+	      use case:
+	       if you have a comman propety among the multiple beans and that value becomas the 
+	       constant then it is recomended to go for bean inhritence
+	     Process:
+	     =========
+	     1:crete the bean with bean name and make it as abstract like below
+	         
+	                    <bean id="comman" abstract="true">
+		                  <property name="zipcode" value="1209" />
+	                          </bean>
+	     2:use it in any bean by using mention its name like parent and name of the bean
+	            
+	              <bean id="dd1" class="com.ij.adress7" parent="comman">
+	      Setting collection values
+	      ========================
+	             
+	                   
+	                                        

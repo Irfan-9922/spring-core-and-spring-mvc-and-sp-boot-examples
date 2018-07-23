@@ -1,0 +1,38 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.model;
+import  com.beans.ContactDetail;
+import com.beans.StudentName;
+import com.beans.StudentAddress;
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:3:18:14 am
+ *TIME:12-Aug-2017
+ *TAGS:
+ */
+public class StudentInfo {
+	private ContactDetail ContactDetail;
+	private StudentAddress StudentAddress;
+	private StudentName StudentName;
+	public ContactDetail getContactDetail() {
+		return ContactDetail;
+	}
+	public void setContactDetail(ContactDetail contactDetail) {
+		ContactDetail = contactDetail;
+	}
+	public StudentAddress getStudentAddress() {
+		return StudentAddress;
+	}
+	public void setStudentAddress(StudentAddress studentAddress) {
+		StudentAddress = studentAddress;
+	}
+	public StudentName getStudentName() {
+		return StudentName;
+	}
+	public void setStudentName(StudentName studentName) {
+		StudentName = studentName;
+	}
+	
+}

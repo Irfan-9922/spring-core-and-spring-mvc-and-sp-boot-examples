@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;WEB-INF&apos;&#x0D;&#x0A;- Original project: &apos; 31-7-17-spring-rev-@pathvariable-using-annotation(3)&apos;&#x0D;&#x0A;- Destination element: &apos;WEB-INF&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     dispatcher-servlet.xml&#x0D;&#x0A;     web.xml" description="Copy files" element1="WebContent/WEB-INF/dispatcher-servlet.xml" element2="WebContent/WEB-INF/web.xml" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1501481798585" target="/ 31-7-17-spring-rev-handling-html-formdata-using-annotation(3)/WebContent/WEB-INF" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,72 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.ij;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * TIME:4:08:07 am
+ *DATE:10-Sep-2017
+ *TAGS:
+ */
+
+public class student5 {
+	private String name;
+	private int phno;
+	
+	private adress5 dd;
+	
+	
+
+	@Override
+	public String toString() {
+		return "student5 [name=" + name + ", phno=" + phno + ", dd=" + dd + "]";
+	}
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+
+	public int getPhno() {
+		return phno;
+	}
+
+
+
+	public void setPhno(int phno) {
+		this.phno = phno;
+	}
+
+
+
+	public adress5 getDd() {
+		return dd;
+	}
+
+
+
+	public void setDd(adress5 dd) {
+		this.dd = dd;
+	}
+
+
+
+	
+	
+	
+}

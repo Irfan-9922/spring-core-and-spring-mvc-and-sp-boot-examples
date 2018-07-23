@@ -1,0 +1,18 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.ij;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:2:59:54 am
+ *TIME:12-Aug-2017
+ *TAGS:
+ */
+public class contact {
+	private String name;
+	private long phno;
+	
+
+}

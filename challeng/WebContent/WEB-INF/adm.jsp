@@ -1,0 +1,15 @@
+<html>
+
+<h1>welcome to the chllaneg</h1>
+<body>
+
+<form action="/challeng/admin.htm" method="post">
+
+name:<input type="text" name="name"><br>
+fname:<input type="text" name="fname"><br>
+phno:<input type="text" name="phno"><br>
+
+<input type="submit" value="clik">
+</form>
+</body>
+</html>

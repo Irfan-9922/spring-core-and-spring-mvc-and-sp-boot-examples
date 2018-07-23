@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;control.java&apos; to &apos;springmvcproject/src&apos;&#x0D;&#x0A;- Original project: &apos;demo&apos;&#x0D;&#x0A;- Destination element: &apos;springmvcproject/src&apos;&#x0D;&#x0A;- Original element: &apos;com.ij.controller.control.java&apos;" description="Copy compilation unit" destination="=springmvcproject/src" element1="/src&lt;com.ij.controller{control.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1498830522298" units="1" version="1.0"/>
+</session>

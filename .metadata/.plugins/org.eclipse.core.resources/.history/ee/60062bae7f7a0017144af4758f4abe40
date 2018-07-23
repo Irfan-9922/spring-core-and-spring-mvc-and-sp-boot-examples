@@ -1,0 +1,35 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package SET;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:12:30:26 pm
+ *TIME:06-Aug-2017
+ *TAGS:
+ */
+public class findDuplicate {
+	public static void main(String[] args) {
+
+     String s[]={"1","2","1","0","0"};
+     
+     Set<String> d=new HashSet<String>();
+     int cnt=0;
+     for(String f:s)
+    	 if(d.add(f)==false){
+    		 cnt++;
+    		 System.out.println("duplicate"+f+"count"+cnt);
+    		 
+    	 }
+    	// d.add(f);
+    
+     System.out.println(d);
+
+	}
+
+}

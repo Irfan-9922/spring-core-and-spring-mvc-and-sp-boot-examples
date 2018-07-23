@@ -1,0 +1,30 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package SORTEDSET;
+
+import java.util.TreeSet;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:10:08:04 am
+ *TIME:07-Aug-2017
+ *TAGS:
+ */
+public class comparibleDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeSet t=new TreeSet<>();
+		for(int i=10;i>1;i--){
+			t.add(i);
+		}
+		System.out.println(t);
+
+	}
+
+}

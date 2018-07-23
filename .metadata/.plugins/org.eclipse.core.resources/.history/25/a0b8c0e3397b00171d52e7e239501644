@@ -1,0 +1,27 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package SORTEDSET;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:11:51:26 am
+ *TIME:07-Aug-2017
+ *TAGS:
+ */
+public  class employee implements Comparable{
+	public int id;
+	public String name;
+
+	/**
+	 * @param id
+	 * @param name
+	 */
+	public employee(int id, String name) {
+	
+		this.id = id;
+		this.name = name;
+	}
+	
+}

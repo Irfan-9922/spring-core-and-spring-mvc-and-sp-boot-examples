@@ -1,0 +1,7 @@
+<h1>welcome to the first page</h1>
+<form action="/spring_demo/result.htm" method="post">
+name:<input type="text" value="name"></br>
+fname:<input type="text" value="fname"></br>
+Date:<input type="date" value="date"></br>
+<input type="submit" name="click">
+</form>

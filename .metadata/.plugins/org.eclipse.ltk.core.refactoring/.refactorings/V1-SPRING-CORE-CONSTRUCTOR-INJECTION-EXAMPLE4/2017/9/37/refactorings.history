@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;V1-SPRING-CORE-BEAN-INHERITENCE-EXAMPLE-9/src&apos;&#x0D;&#x0A;- Original project: &apos;V1-SPRING-CORE-CONSTRUCTOR-INJECTION-EXAMPLE4&apos;&#x0D;&#x0A;- Destination element: &apos;V1-SPRING-CORE-BEAN-INHERITENCE-EXAMPLE-9/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     V1-SPRING-CORE-CONSTRUCTOR-INJECTION-EXAMPLE4/src/cfgs&#x0D;&#x0A;     V1-SPRING-CORE-CONSTRUCTOR-INJECTION-EXAMPLE4/src/com.ij&#x0D;&#x0A;     V1-SPRING-CORE-CONSTRUCTOR-INJECTION-EXAMPLE4/src/test" description="Copy packages" destination="=V1-SPRING-CORE-BEAN-INHERITENCE-EXAMPLE-9/src" element1="/src&lt;cfgs" element2="/src&lt;com.ij" element3="/src&lt;test" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1505012756468" version="1.0"/>
+</session>

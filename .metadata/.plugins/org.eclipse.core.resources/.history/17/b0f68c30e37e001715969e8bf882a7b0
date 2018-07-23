@@ -1,0 +1,35 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.model.StudentInfo;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:3:27:24 am
+ *TIME:12-Aug-2017
+ *TAGS:
+ */
+@Controller
+public class StudentRegisterController {
+	@RequestMapping("homepage")
+	public String homePage(){
+		return "Homepage";
+	}
+	
+	@RequestMapping("register")
+	public ModelAndView register(@ModelAttribute("stinfo") StudentInfo info){
+		ModelAndView m=new ModelAndView("Registretion_form");
+		m.addObject(info);
+		return m;
+		
+	}
+
+}

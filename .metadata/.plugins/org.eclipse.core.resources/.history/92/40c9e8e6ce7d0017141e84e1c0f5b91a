@@ -1,0 +1,23 @@
+<form action="/go/form2" method="post">
+
+
+
+name:<input type="text" name="name"><br>
+fname:<input type="text" name="fname"><br>
+phno:<input type="text" name="phno"><br>
+city:<input type="text" name="adre.city"><br>
+countery:<input type="text" name="adre.countery"><br>
+state:<input type="text" name="adre.state"><br>
+zipcode:<input type="text" name="adre.zipcode"><br>
+
+			Student's Skills set :    <select name="studentSkills" multiple>
+													<option value="Java Core">Java Core</option>
+													<option value="Spring Core">Spring Core</option>
+													<option value="Spring MVC">Spring MVC</option>
+													</select>
+	
+
+<input type="submit" value="clik">
+</form>
+</body>
+</html>

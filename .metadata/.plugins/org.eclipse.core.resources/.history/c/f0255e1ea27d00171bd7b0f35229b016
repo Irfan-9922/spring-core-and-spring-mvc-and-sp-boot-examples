@@ -1,0 +1,40 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.ij.controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.AbstractController;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:6:26:59 pm
+ *TIME:09-Aug-2017
+ *TAGS:
+ */
+@Controller
+public class cont {
+
+	/* (non-Javadoc)
+	 * @see org.springframework.web.servlet.mvc.AbstractController#handleRequestInternal(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+	 */
+	@RequestMapping(value="/demo", method=RequestMethod.GET)
+public String formpage(){
+	return "welcome";
+}
+@RequestMapping(value="/click1",method=RequestMethod.POST)
+public ModelAndView d(@RequestParam("name") String name,@RequestParam("add") String add){
+	ModelAndView m=new ModelAndView("sucess");
+	m.addObject("msg","detail you have submitted:::"+name+"and you r address:"+add);
+	return m;
+	
+}
+}

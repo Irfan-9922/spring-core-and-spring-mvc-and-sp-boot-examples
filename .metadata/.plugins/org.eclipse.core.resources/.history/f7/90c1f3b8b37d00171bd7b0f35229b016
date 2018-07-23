@@ -1,0 +1,22 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.is.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:3:23:17 pm
+ *TIME:10-Aug-2017
+ *TAGS:
+ */
+@Controller
+public class controller {
+@RequestMapping("welcome")
+	public String show(){
+		return "welcome";
+	}
+}

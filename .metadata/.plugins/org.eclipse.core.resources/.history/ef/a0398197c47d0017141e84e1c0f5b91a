@@ -1,0 +1,6 @@
+<form action="/dink/demo" method="post">
+
+Name:<input type="text" name="name"/><br>
+no:<input type="text" name="no"/><br>
+<input type="submit" value="sbmit">
+</form>

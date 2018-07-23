@@ -1,0 +1,35 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.model;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:3:18:14 am
+ *TIME:12-Aug-2017
+ *TAGS:
+ */
+public class StudentInfo {
+	private com.beans.ContactDetail ContactDetail;
+	private com.beans.StudentAddress StudentAddress;
+	private com.beans.StudentName StudentName;
+	public com.beans.ContactDetail getContactDetail() {
+		return ContactDetail;
+	}
+	public void setContactDetail(com.beans.ContactDetail contactDetail) {
+		ContactDetail = contactDetail;
+	}
+	public com.beans.StudentAddress getStudentAddress() {
+		return StudentAddress;
+	}
+	public void setStudentAddress(com.beans.StudentAddress studentAddress) {
+		StudentAddress = studentAddress;
+	}
+	public com.beans.StudentName getStudentName() {
+		return StudentName;
+	}
+	public void setStudentName(com.beans.StudentName studentName) {
+		StudentName = studentName;
+	}
+}

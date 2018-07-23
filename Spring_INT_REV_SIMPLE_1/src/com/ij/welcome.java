@@ -1,0 +1,23 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.ij;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * TIME:5:19:11 pm
+ *DATE:09-Sep-2017
+ *TAGS:
+ */
+@Controller
+public class welcome {
+	@RequestMapping("/hello")
+	public String syhello(){
+		return "hello";
+	}
+
+}

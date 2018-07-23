@@ -1,0 +1,21 @@
+/**@COPYRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.go;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * NAME:shaikh irfan
+ *
+ * DATE:4:32:52 pm
+ *TIME:10-Aug-2017
+ *TAGS:
+ */
+@Controller
+public class welcome {
+	public String dis(){
+		return "first";
+	}
+
+}
